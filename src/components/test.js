@@ -1,7 +1,5 @@
 import React from "react";
 import {Link} from "gatsby";
-import HeroImage from "../videos/hero.png";
-import HeroImagePoster from "../videos/hero.png";
 import {useState, useEffect} from "react";
 
 const menu = require('../contents/urls.json');
@@ -14,32 +12,22 @@ const HeroSection = () => {
     return (
         <section className={'hero-section'}>
             <div className={'video-container'}>
-                <div className={'video-wrapper'}>
-                    <div className={'video-bg'}/>
-                    <video id={'hero-video'} autoPlay={true} preload={'none'} loop={true} playsInline={true} muted={true} poster={HeroImagePoster}>
-                        {isSafari &&
-                            <source src={HeroImage} type=''/>
-                        }
-                        {!isSafari &&
-                            <source src={HeroImage} type="video/images" />
-                        }
-                    </video>
-                </div>
             </div>
             <div className={'container'}>
                 <div className={'row'}>
-                    <div className={'col-250 col-xl-250'}>
+                    <div className={'col-12 col-xl-5'}>
                         <h1 data-sal="fade"
                             data-sal-delay="200"
-                            data-sal-duration="1000">The New Pioneer <br/>
-                            Of Future Web3<br/>
-                            Environment
+                            data-sal-duration="1000">Smart <br/>
+                            Contracts <br/>
+                            Evolved
                         </h1>
+
                         <div className={'text-box'} data-sal="fade"
                              data-sal-delay="400"
                              data-sal-duration="1000">
-                            Gitshock is bringing EVM based chains<br/>
-                            to the interoperable networks of the Cosmos ecosystem. Gitshock is aiming to involve any possible business to the network while providing easiness for the ecosystem.
+                            Use & create interoperable applications on Juno. <br/>
+                            A decentralized, public, permission-less network for cross-chain smart contracts.
                         </div>
 
                         <div className={'row'} data-sal="fade"

@@ -116,8 +116,6 @@ class HackSection extends React.Component {
                                 <StaticImage
                                     src={'../images/cosmwasm.png'}
                                     alt={'Interoperable Smart Contracts - Home of CosmWasm'}
-                                    width={612}
-                                    height={570}
                                     placeholder="blurred"
                                 />
                             </Parallax>
