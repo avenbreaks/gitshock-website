@@ -1,5 +1,5 @@
 .ecosystem{
-  background: rgba(0,0,0,0.15);
+  background: rgb(240,240,243);
   border-radius: 10px;
   width:100%;
   height:100%;
@@ -31,7 +31,7 @@
   .title{
     font-family: $dm;
     font-size: 20px;
-    color: #FFFFFF;
+    color: #000000;
     letter-spacing: 0;
   }
 
@@ -39,7 +39,7 @@
     font-family: $gv;
     font-weight:normal;
     font-size: 14px;
-    color: #E9D6D6;
+    color: #000000;
     letter-spacing: 0.26px;
     line-height: 18px;
     margin-top:15px;
@@ -62,7 +62,7 @@
       height:22px;
       border-radius: 50%;
       background: rgba(255,255,255,0.10);
-      color:#fff;
+      color:rgb(0, 0, 0);
       text-align:center;
       font-size:10px;
       line-height:24px;

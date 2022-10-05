@@ -9,7 +9,7 @@ header{
   @include transition(500ms all cubic-bezier(0.87, 0, 0.13, 1));
   backdrop-filter: blur(0px);
   -webkit-backdrop-filter: blur(0px);
-  background-color:rgba(0,0,0,0);
+  background-color:rgba(0, 0, 0, 0);
 
   @include media-breakpoint-down(sm){
     padding:25px 0;
@@ -67,7 +67,7 @@ header{
         font-family: $dsb;
         font-weight:600;
         font-size: 18px;
-        color: #fff;
+        color: rgb(0, 0, 0);
         letter-spacing: 0;
         margin:0 20px;
         padding:4px 0;
@@ -103,7 +103,7 @@ header{
 
         &.social{
 
-          background: rgba(0,0,0,0.10);
+          background: #ffffff;
           border-radius:50%;
           display:inline-block;
           width:34px;

@@ -75,7 +75,7 @@ footer{
   legend{
     font-family: $dm;
     font-size: 20px;
-    color: #FFF;
+    color: rgb(0, 0, 0);
     letter-spacing: 0;
     margin-bottom:5px;
     text-transform: capitalize;
@@ -89,7 +89,7 @@ footer{
       font-family: $gv;
       font-weight:normal;
       font-size: 14px;
-      color: #E9D6D6;
+      color: #313131;
       letter-spacing: 0.26px;
       line-height: 23px;
     }
@@ -99,7 +99,7 @@ footer{
     text-align:center;
     font-family: $gv;
     font-size: 14px;
-    color: #E9D6D6;
+    color: #313131;
     letter-spacing: 0.26px;
     line-height: 23px;
     margin-top:25px;
@@ -131,7 +131,7 @@ footer{
     .title{
       font-family: $dm;
       font-size: 36px;
-      color: #FFFFFF;
+      color: #000000;
       letter-spacing: 0;
       line-height: 49px;
 
@@ -153,7 +153,7 @@ footer{
     .social{
       a{
         background: rgba(240,130,125,0.20);
-        color: #FFFFFF;
+        color: #7BB4FC;
         width:42px;
         height:42px;
         border-radius:50%;

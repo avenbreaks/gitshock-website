@@ -61,23 +61,17 @@ const EcosystemPage = (props) => {
                             <div className={'col-12 col-sm-8 col-xl-10'}>
                                 <h1 data-sal="fade"
                                     data-sal-delay="200"
-                                    data-sal-duration="1000">The Juno Ecosystem
+                                    data-sal-duration="1000">Gitshock Ecosystem
                                 </h1>
 
                                 <div className={'text-box'} data-sal="fade"
                                      data-sal-delay="400"
                                      data-sal-duration="1000">
-                                    50+ apps, contracts, tools and 2000+ DAO's built on Juno
-                                </div>
-
-                                <div className={'row'} data-sal="fade"
-                                     data-sal-delay="600"
-                                     data-sal-duration="1000">
-                                    <div className={'col-auto'}>
-                                        <AnchorLink to={'/ecosystem/#browse'}>
-                                            <button type={'button'}>Start browsing</button>
-                                        </AnchorLink>
-                                    </div>
+                                    I Want to...
+                                    <ul> 
+                                <li><a href="https://gitshock.gitbook.io/gitshock-finance/developers/getting-started">Develop &#x2197;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><a href="https://swap.gitshock.com">Govern &#x2197;</a></li>
+                                <li><a href="https://gitshock.gitbook.io/gitshock-finance/networks-guides/evm-network-guide">Operate &#x2197;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><a href="https://swap.gitshock.com">Discover &nbsp;GTFX &#x2197;</a></li>
+                            </ul>
                                 </div>
                             </div>
                         </div>
@@ -88,11 +82,11 @@ const EcosystemPage = (props) => {
                     <div className={'container'}>
                         <div className={'row justify-content-between'}>
                             <div className={'col-auto'}>
-                                <h5 className={'mb-3 mb-lg-4 mb-xl-5'}
+                                <h6 className={'mb-3 mb-lg-4 mb-xl-5'}
                                     data-sal="fade"
                                     data-sal-delay="200"
-                                    data-sal-duration="1000">Browse Juno Ecosystem
-                                </h5>
+                                    data-sal-duration="1000">Browse Gitshock Ecosystem
+                                </h6>
                             </div>
                             <div className={'col-12 col-md-auto'}>
                                 <nav>

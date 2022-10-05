@@ -40,6 +40,7 @@ const Footer = () => {
                                     <li><a href={menu.docs} target={'_blank'} rel={'noreferrer'}>Docs</a></li>
                                     <li><a href={menu.github} target={'_blank'} rel={'noreferrer'}>Github</a></li>
                                     <li><Link to={menu.ecosystem}>Ecosystem</Link></li>
+                                    <li><a href={menu.whitepaper} target={'_blank'} rel={'noreferrer'}>Whitepaper</a></li>
                                 </ul>
                             </div>
                             <div className={'col-12 col-sm-6 col-md-3 pb-4'}>
@@ -107,7 +108,7 @@ const Footer = () => {
                             <div className={'row'}>
                                 <div className={'col-auto'}>Website created by</div>
                                 <div className={'col-auto px-0'}>
-                                    <a href="https://designatives.com" target={'_blank'} rel={'noreferrer'}>
+                                    <a href="https://www.junonetwork.io" target={'_blank'} rel={'noreferrer'}>
                                         <StaticImage
                                             src={'../images/designatives-logo.svg'}
                                             alt={'Designatives'}

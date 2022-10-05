@@ -15,17 +15,11 @@ const HeroSection = () => {
     return (
         <section className={'hero-section'}>
             <div className={'video-container'}>
-                <div className={'video-wrapper'}>
-                    <div className={'video-bg'}/>
-                    <video id={'hero-video'} autoPlay={true} preload={'none'} loop={true} playsInline={true} muted={true} poster={HeroVideoPoster}>
-                        {isSafari &&
-                            <source src={HeroVideoMov} type='video/mp4;codecs="hvc1"'/>
-                        }
-                        {!isSafari &&
-                            <source src={HeroVideo} type="video/webm" />
-                        }
-                    </video>
-                </div>
+            </div>
+            <div className={'row pt-md-5 align-items-top'}>
+                <div className={'col-12 col-md-6'}>
+                    <img src={'/videos/hero.png'} alt={'Gitshock Finance'} className={'logo'} />
+                    </div>
             </div>
             <div className={'container'}>
                 <div className={'row'}>
@@ -33,7 +27,7 @@ const HeroSection = () => {
                         <h2 data-sal="fade"
                             data-sal-delay="200"
                             data-sal-duration="1000">The New Pioneer <br/>
-                            of Future Web3<br/>
+                            Of Future Web3<br/>
                             Environment
                         </h2>
 

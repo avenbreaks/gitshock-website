@@ -18,11 +18,16 @@ export function ServicesSection() {
                                  data-sal-delay="200"
                                  data-sal-duration="1000">
                                 <div className={'inner'}>
-                                    <div className={'title'}>Cosmostation Wallet</div>
+                                    <div className={'title'}>Gitshock Wallet Extension</div>
+                                    <div className={'text-box'}>
+                                    Multichain wallet for storing crypto assets from Various Networks. Available for mobile and chrome extension.
+                                        <ul>
+                                        </ul>
+                                    </div>
                                     <div className={'row'}>
                                         <div className={'col-auto'}>
                                             <a href={menu.cosmostation} target={'_blank'} rel={'noreferrer'}>
-                                                <button type={'button'}>Install Cosmostation</button>
+                                                <button type={'button'}>Soon On Chrome</button>
                                             </a>
                                         </div>
                                         <div className={'col-auto'}>
@@ -40,19 +45,36 @@ export function ServicesSection() {
                                  data-sal-delay="200"
                                  data-sal-duration="1000">
                                 <div className={'inner'}>
-                                    <div className={'title'}>Staking Juno</div>
+                                    <div className={'title'}>Gitshock Swap</div>
                                     <div className={'text-box'}>
-                                        When the staking (delegation) transaction is complete, rewards will start to be generated immediately on a block per block basis. At any time, stakers can claim their accumulated rewards, via a non-custodial wallet.
+                                    Gitshock Swap is a multinetwork decentralized exchange (DEX) aggregator powered by GTFX token.
                                         <ul>
-                                            <li>Secure the network</li>
-                                            <li>Earn rewards</li>
-                                            <li>Vote for the future</li>
                                         </ul>
                                     </div>
                                     <div className={'row'}>
                                         <div className={'col-auto'}>
                                             <a href={menu['staking-juno']} target={'_blank'} rel={'noreferrer'}>
-                                                <button type={'button'}>Learn more</button>
+                                                <button type={'button'}>Swap Now</button>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className={'col-12 col-sm-6'}>
+                            <div className={'service staking-juno'}
+                                 data-sal="slide-up"
+                                 data-sal-delay="200"
+                                 data-sal-duration="1000">
+                                <div className={'inner'}>
+                                    <div className={'title'}>Gitshock Scan</div>
+                                    <div className={'text-box'}>
+                                    <ul>A Simple Blockchain explorer for Gitshock EVM.</ul>
+                                    </div>
+                                    <div className={'row'}>
+                                        <div className={'col-auto'}>
+                                            <a href={menu['staking-juno']} target={'_blank'} rel={'noreferrer'}>
+                                                <button type={'button'}>Get Started</button>
                                             </a>
                                         </div>
                                     </div>
@@ -65,11 +87,16 @@ export function ServicesSection() {
                                  data-sal-delay="200"
                                  data-sal-duration="1000">
                                 <div className={'inner'}>
-                                    <div className={'title'}>Keplr wallet</div>
+                                    <div className={'title'}>Gitshock Edgeware</div>
+                                    <div className={'text-box'}>
+                                    Deploy your own EVM token in one click using githock edgeware securely.
+                                        <ul>
+                                        </ul>
+                                    </div>
                                     <div className={'row'}>
                                         <div className={'col-auto'}>
                                             <a href={menu.keplr} target={'_blank'} rel={'noreferrer'}>
-                                                <button type={'button'}>Install Keplr Wallet</button>
+                                                <button type={'button'}>Coming Soon</button>
                                             </a>
                                         </div>
                                         <div className={'col-auto'}>
@@ -82,97 +109,6 @@ export function ServicesSection() {
                             </div>
                         </div>
                     </div>
-
-                    <div className={'row junoswap'}>
-                        <Parallax translateY={['100px', '0px']}>
-                            <div className={'junoswap-graph'}>
-                                <StaticImage
-                                    src={'../images/junoswap.png'}
-                                    alt={'Smart Contracts'}
-                                    width={827}
-                                    height={781}
-                                    placeholder="blurred"
-                                />
-                            </div>
-                        </Parallax>
-                        <div className={'col-12 col-md-12 col-lg-5 pe-lg-4 z-index-front'}>
-                            <h3
-                                data-sal="fade"
-                                data-sal-delay="200"
-                                data-sal-duration="1000">
-                                Easy access to JunoSwap and Osmosis
-                            </h3>
-                            <div className={'text-box pe-5'}
-                                 data-sal="fade"
-                                 data-sal-delay="400"
-                                 data-sal-duration="1000">
-                                Swap & LP your Juno on the largest Cosmos decentralized exchanges.
-                            </div>
-                            <div className={'row mt-4'}
-                                 data-sal="fade"
-                                 data-sal-delay="600"
-                                 data-sal-duration="1000">
-                                <div className={'col-auto pb-3'}>
-                                    <a href={menu.junoswap} target={'_blank'} rel={'noreferrer'}>
-                                        <button type={'button'}>Enter JunoSwap</button>
-                                    </a>
-                                </div>
-                                <div className={'col-auto pb-3'}>
-                                    <a href={menu.osmosis} target={'_blank'} rel={'noreferrer'}>
-                                        <button type={'button'}>Enter Osmosis</button>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={'col-12 col-md-12 col-lg-7 ps-lg-5'}>
-                            <div className={'junoswap-box'}
-                                 data-sal="fade"
-                                 data-sal-delay="400"
-                                 data-sal-duration="1000">
-                                <StaticImage
-                                    src={'../images/junoswap-logo.png'}
-                                    alt={'Junoswap'}
-                                    width={258}
-                                    height={59}
-                                    placeholder="blurred"
-                                />
-                                <a href={menu['connect-keplr']} target={'_blank'} rel={'noreferrer'}
-                                   data-sal="fade"
-                                   data-sal-delay="600"
-                                   data-sal-duration="1000">
-                                    <button type={'button'} className={'button-white mt-4'}>Connect Keplr</button>
-                                </a>
-
-                                <div className={'row mt-4 pt-2 pt-lg-3'}>
-                                    <div className={'col-1'}>
-                                        <i className={'icon-hash'}></i>
-                                    </div>
-                                    <div className={'col-10'}>
-                                        Swap
-                                    </div>
-                                </div>
-
-                                <div className={'row mt-3 pt-2 pt-lg-3'}>
-                                    <div className={'col-1'}>
-                                        <i className={'icon-transfer'}></i>
-                                    </div>
-                                    <div className={'col-10'}>
-                                        Transfer
-                                    </div>
-                                </div>
-
-                                <div className={'row mt-3 pt-2 pt-lg-3'}>
-                                    <div className={'col-1'}>
-                                        <i className={'icon-liquidity'}></i>
-                                    </div>
-                                    <div className={'col-10'}>
-                                        Liquidity
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
                     <PiechartSection/>
 
                 </div>

@@ -126,16 +126,16 @@ class HackSection extends React.Component {
                             <legend
                                 data-sal="fade"
                                 data-sal-delay="100"
-                                data-sal-duration="1000">COSMWASM</legend>
+                                data-sal-duration="1000"></legend>
                             <h3 className={'mb-4'}
                                 data-sal="fade"
                                 data-sal-delay="200"
-                                data-sal-duration="1000">Interoperable Smart Contracts - Home of CosmWasm</h3>
+                                data-sal-duration="1000">Interoperability between Cosmos and EVM.</h3>
                             <div className={'text-box'}
                                 data-sal="fade"
                                 data-sal-delay="400"
                                 data-sal-duration="1000">
-                                Simple, secure and fast virtual machine set up to sandbox or partition your application’s actions for better testing, security, performance and speed.
+                                Home for interchain EVM Decentralized Apps powered by Cosmos SDK and Tendermint Core which enables fast and secure transaction.
                             </div>
 
                             <a href={menu["cosmwasm"]} target={'_blank'} rel={'noreferrer'}>

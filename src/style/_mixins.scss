@@ -58,7 +58,7 @@
 }
 
 // BACKGROUND GRADIENT
-@mixin background-gradient($startColor: #3C3C3C, $endColor: #999999) {
+@mixin background-gradient($startColor: #000000, $endColor: #000000) {
   background-color: $startColor;
   background-image: -webkit-gradient(linear, left top, left bottom, from($startColor), to($endColor));
   background-image: -webkit-linear-gradient(top, $startColor, $endColor);
