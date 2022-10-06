@@ -31,14 +31,14 @@ const HeroSection = () => {
                     <div className={'col-250 col-xl-250'}>
                         <h1 data-sal="fade"
                             data-sal-delay="200"
-                            data-sal-duration="1000">The New Pioneer <br />
+                            data-sal-duration="1000">The New Piøneer <br />
                             Of Future Web3<br />
                             Environment
                         </h1>
                         <div className={'text-box'} data-sal="fade"
                             data-sal-delay="400"
                             data-sal-duration="1000">
-                            Gitshock is bringing EVM based chains<br />
+                            Gitshøck is bringing EVM based chains<br />
                             to the interoperable networks of the Cosmos ecosystem. Gitshock is aiming to involve any possible business to the network while providing easiness for the ecosystem.
                         </div>
 

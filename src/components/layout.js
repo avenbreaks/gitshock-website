@@ -20,13 +20,13 @@ export default function Layout({ children }) {
                         crossOrigin="anonymous" async></script>
 
                 <meta charSet="utf-8" />
-                <title>Gitshock Finance - Blockchain Infrastructure For All</title>
-                <meta name={'title'} content={'Gitshock Finance - Blockchain Infrastructure For All'} />
+                <title>Gitshøck Finance - Blockchain Infrastructure For All</title>
+                <meta name={'title'} content={'Gitshøck Finance - Blockchain Infrastructure For All'} />
                 <meta name={'description'} content={'Gitshock is bringing EVM based chains to the interoperable networks of the Cosmos ecosystem. Gitshock is aiming to involve non-crypto business to the network while providing easiness for the ecosystem!'} />
 
                 <meta content="Blockchain Infrastructure For All" property="og:site_name"/>
                 <meta content="https://gitshock.com" property="og:url"/>
-                <meta property="og:title" content="Gitshock Finance - Blockchain Infrastructure For All" />
+                <meta property="og:title" content="Gitshøck Finance - Blockchain Infrastructure For All" />
                 <meta name={'og:description'} content={'Gitshock is bringing EVM based chains to the interoperable networks of the Cosmos ecosystem. Gitshock is aiming to involve non-crypto business to the network while providing easiness for the ecosystem!'} />
                 <meta content={ogimage} property="og:image"/>
 
@@ -40,7 +40,7 @@ export default function Layout({ children }) {
                 <meta property="article:publisher" content="https://gitshock.com" />
                 <meta property="og:site_name" content="GGitshock is bringing EVM based chains to the interoperable networks of the Cosmos ecosystem. Gitshock is aiming to involve non-crypto business to the network while providing easiness for the ecosystem!" />
                 <meta property="og:type" content="website" />
-                <meta name="author" content="Gitshock Finance - Blockchain Infrastructure For All" />
+                <meta name="author" content="Gitshøck Finance - Blockchain Infrastructure For All" />
                 <meta name="twitter:card" content="summary" />
                 <meta name="twitter:text:title" content="Gitshock is bringing EVM based chains to the interoperable networks of the Cosmos ecosystem. Gitshock is aiming to involve non-crypto business to the network while providing easiness for the ecosystem!" />
                 <meta property="og:url" content="https://gitshock.com" />

@@ -3,6 +3,8 @@ import {Link} from "gatsby";
 import {StaticImage} from "gatsby-plugin-image";
 import FooterVideoMov from "../videos/footer-cropped.mp4";
 import FooterVideo from "../videos/footer-cropped.webm";
+import FooterWall from "../videos/wall.png";
+import FooterWallPoster from "../videos/wall.png";
 import {useState, useEffect} from "react";
 
 const menu = require('../contents/urls.json')
@@ -10,7 +12,7 @@ const menu = require('../contents/urls.json')
 const Footer = () => {
     const [isSafari, setSafari] = useState(false)
     useEffect(() => {
-        setSafari(/constructor/i.test(window.HTMLElement) || (function (p) { return p.toString() === "[object SafariRemoteNotification]"; })(!window['safari'] || (typeof safari !== 'undefined' && safari.pushNotification)));
+        setSafari(/constructor/i.test(window.HTMLElement) || (function (p) { return p.toString() === "[object SafariRemoteNotification]"; })(!window['safari'] || (typeof safari !== 'undefined' && isSafari.pushNotification)));
     });
     return (
         <footer>
@@ -19,10 +21,10 @@ const Footer = () => {
                     <div className={'video-bg'}/>
                     <video autoPlay={true} loop={true} preload={'none'} playsInline={true} muted={true}>
                         {isSafari &&
-                            <source src={FooterVideoMov} type='video/mp4;codecs="hvc1"'/>
+                            <source src={FooterWallPoster} type='videos/wall.png'/>
                         }
                         {!isSafari &&
-                            <source src={FooterVideo} type="video/webm" />
+                            <source src={FooterWall} type="videos/wall.png" />
                         }
                     </video>
                 </div>
@@ -30,7 +32,7 @@ const Footer = () => {
             <div className={'container'}>
                 <div className={'row'}>
                     <div className={'col-12 col-sm-8'}>
-                        <h2>Learn About <br/>Gitshock Finance</h2>
+                        <h2>Learn About <br/>Gitshøck Finance</h2>
 
                         <div className={'row mt-4 mt-lg-5'}>
                             <div className={'col-12 col-sm-6 col-md-2 pb-4'}>

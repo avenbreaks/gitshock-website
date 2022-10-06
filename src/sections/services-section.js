@@ -18,7 +18,7 @@ export function ServicesSection() {
                                  data-sal-delay="200"
                                  data-sal-duration="1000">
                                 <div className={'inner'}>
-                                    <div className={'title'}>Gitshock Wallet Extension</div>
+                                    <div className={'title'}>Gitshøck Wallet Extension</div>
                                     <div className={'text-box'}>
                                     Multichain wallet for storing crypto assets from Various Networks. Available for mobile and chrome extension.
                                         <ul>
@@ -45,7 +45,7 @@ export function ServicesSection() {
                                  data-sal-delay="200"
                                  data-sal-duration="1000">
                                 <div className={'inner'}>
-                                    <div className={'title'}>Gitshock Swap</div>
+                                    <div className={'title'}>Gitshøck Swap</div>
                                     <div className={'text-box'}>
                                     Gitshock Swap is a multinetwork decentralized exchange (DEX) aggregator powered by GTFX token.
                                         <ul>
@@ -67,7 +67,7 @@ export function ServicesSection() {
                                  data-sal-delay="200"
                                  data-sal-duration="1000">
                                 <div className={'inner'}>
-                                    <div className={'title'}>Gitshock Scan</div>
+                                    <div className={'title'}>Gitshøck Scan</div>
                                     <div className={'text-box'}>
                                     <ul>A Simple Blockchain explorer for Gitshock EVM.</ul>
                                     </div>
@@ -87,7 +87,7 @@ export function ServicesSection() {
                                  data-sal-delay="200"
                                  data-sal-duration="1000">
                                 <div className={'inner'}>
-                                    <div className={'title'}>Gitshock Edgeware</div>
+                                    <div className={'title'}>Gitshøck Edgeware</div>
                                     <div className={'text-box'}>
                                     Deploy your own EVM token in one click using githock edgeware securely.
                                         <ul>

@@ -24,8 +24,8 @@ class HackSection extends React.Component {
                                 data-sal-delay="100"
                                 data-sal-duration="1000">
                                 <p>
-                                    Gitshock Finance project is not only just another token project, it is also developing the mainnet layer 1 based on
-                                    Ethereum and Cosmos Network. With the reliable technologies from Cosmos SDK, Tendermint Core, Ethereum Virtual Machines, Gitshock Network will enable interoperable smart contract between IBC and EVM.
+                                    Gitshøck Finance project is not only just another token project, it is also developing the mainnet layer 1 based on
+                                    Ethereum and Cosmos Network. With the reliable technologies from Cosmos SDK, Tendermint Core, Ethereum Virtual Machines, Gitshock Netwørk will enable interoperable smart contract between IBC and EVM.
                                 </p>
                             </div>
                             <a href={menu["hacks-and-bounties"]} target={'_blank'} rel={'noreferrer'}>
@@ -128,7 +128,7 @@ class HackSection extends React.Component {
                             <h3 className={'mb-4'}
                                 data-sal="fade"
                                 data-sal-delay="200"
-                                data-sal-duration="1000">Interoperability between Cosmos and EVM.</h3>
+                                data-sal-duration="1000">Interoperability between Cosmøs and EVM.</h3>
                             <div className={'text-box'}
                                 data-sal="fade"
                                 data-sal-delay="400"

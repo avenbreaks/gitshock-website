@@ -39,7 +39,7 @@ const EcosystemSection = () => {
                                 data-sal-duration="1000">ECOSYSTEM</legend>
                         <h3 data-sal="fade"
                              data-sal-delay="200"
-                             data-sal-duration="1000">Will be ready to host any awesome web3 dapps on Gitshock Network</h3>
+                             data-sal-duration="1000">Will be ready to host any awesome web3 dapps on Gitshøck Network</h3>
                         <div className={'text-box'} data-sal="fade"
                              data-sal-delay="600"
                              data-sal-duration="1000">

@@ -33,21 +33,22 @@ const GrantsPage = () => {
                             </div>
                         </div>
                         <div className={'row'}>
-                            <div className={'col-12 col-sm-8 col-xl-5'}>
+                            <div className={'col-12 col-sm-30 col-xl-15'}>
                                 <h1 data-sal="fade"
                                     data-sal-delay="200"
-                                    data-sal-duration="1000">Juno Grants
+                                    data-sal-duration="1000">What is <br/>
+                                    Gitshøck Finance
                                 </h1>
 
                                 <div className={'text-box'} data-sal="fade"
                                      data-sal-delay="400"
                                      data-sal-duration="1000">
-                                    Apply for a grant to incentivize your development on Junø
+                                    Gitshøck Finance is a blockchain project created using Cosmos and Ethereum Virtual Machine which aims to provide a suitable network where developers can build on with affordale fees and fast transaction.  
                                 </div>
                                 <div className={'text-box'} data-sal="fade"
                                      data-sal-delay="400"
                                      data-sal-duration="1000">
-                                    Note that Hack Juno grants are separate and applications should follow the instructions <a className={'anchor-link'} target={'_blank'} rel={'noreferrer'} href='https://medium.com/hack-juno-dao/hack-juno-280670cd71b2'>here</a>
+                                    The team intends to build their own native projects on the network such as token builder, blockchain builder, Gitshøck Swap, Gitshøck Wallet, and will allow everyone to build their own projects, govern, operate the network and more.
                                 </div>
                             </div>
                         </div>
