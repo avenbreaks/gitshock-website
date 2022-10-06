@@ -12,7 +12,7 @@ const PiechartSection = () => {
     return (
         <div className={'row piechart'}>
             
-            <div className={'col-12 col-md-5 pt-5 pt-md-0'}>
+            <div className={'col-3 col-md-5 pt-5 pt-md-0'}>
                 <h3
                     data-sal="fade"
                     data-sal-delay="200"

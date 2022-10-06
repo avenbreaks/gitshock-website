@@ -25,7 +25,7 @@ body{
   background:$bgColor;
   font-family: $gv;
   font-size: 10px;
-  color: rgb(240,240,243);
+  color: #bec3cd;
   letter-spacing: 0.36px;
   line-height: 20px;
   height:100vh;
@@ -188,7 +188,7 @@ section{
 // CAROUSEL ARROWS
 .react-multiple-carousel__arrow{
   padding:0;
-  background-color: rgba(240,130,125,0.10);
+  background-color: #bec3cd;
   border-radius: 50%;
   transition:500ms all ease-in-out;
 

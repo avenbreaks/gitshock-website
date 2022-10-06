@@ -1,24 +1,24 @@
 import React from "react";
-import {Link} from "gatsby";
+import { Link } from "gatsby";
 import HeroImage from "../videos/hero.png";
 import HeroImagePoster from "../videos/hero.png";
-import {useState, useEffect} from "react";
+import { useState, useEffect } from "react";
 
 const menu = require('../contents/urls.json');
 
 const HeroSection = () => {
     const [isSafari, setSafari] = useState(false);
     useEffect(() => {
-    setSafari(/constructor/i.test(window.HTMLElement) || (function (p) { return p.toString() === "[object SafariRemoteNotification]"; })(!window['safari'] || (typeof safari !== 'undefined' && safari.pushNotification)));
+        setSafari(/constructor/i.test(window.HTMLElement) || (function (p) { return p.toString() === "[object SafariRemoteNotification]"; })(!window['safari'] || (typeof safari !== 'undefined' && safari.pushNotification)));
     });
     return (
         <section className={'hero-section'}>
             <div className={'video-container'}>
                 <div className={'video-wrapper'}>
-                    <div className={'video-bg'}/>
+                    <div className={'video-bg'} />
                     <video id={'hero-video'} autoPlay={true} preload={'none'} loop={true} playsInline={true} muted={true} poster={HeroImagePoster}>
                         {isSafari &&
-                            <source src={HeroImage} type=''/>
+                            <source src={HeroImage} type='' />
                         }
                         {!isSafari &&
                             <source src={HeroImage} type="video/images" />
@@ -31,20 +31,20 @@ const HeroSection = () => {
                     <div className={'col-250 col-xl-250'}>
                         <h1 data-sal="fade"
                             data-sal-delay="200"
-                            data-sal-duration="1000">The New Pioneer <br/>
-                            Of Future Web3<br/>
+                            data-sal-duration="1000">The New Pioneer <br />
+                            Of Future Web3<br />
                             Environment
                         </h1>
                         <div className={'text-box'} data-sal="fade"
-                             data-sal-delay="400"
-                             data-sal-duration="1000">
-                            Gitshock is bringing EVM based chains<br/>
+                            data-sal-delay="400"
+                            data-sal-duration="1000">
+                            Gitshock is bringing EVM based chains<br />
                             to the interoperable networks of the Cosmos ecosystem. Gitshock is aiming to involve any possible business to the network while providing easiness for the ecosystem.
                         </div>
 
                         <div className={'row'} data-sal="fade"
-                             data-sal-delay="600"
-                             data-sal-duration="1000">
+                            data-sal-delay="600"
+                            data-sal-duration="1000">
                             <div className={'col-auto'}>
                                 <a href={menu["get-started"]}>
                                     <button type={'button'}>Get Started</button>

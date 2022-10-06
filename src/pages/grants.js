@@ -3,6 +3,8 @@ import Layout from "../components/layout";
 import EcosystemVideoMov from "../videos/ecosystem-small.mp4";
 import EcosystemVideo from "../videos/ecosystem-small.webm";
 import EcosystemPoster from "../videos/ecosystem.png";
+import EcosystemImage from "../videos/flow.png";
+import EcosystemImagePoster from "../videos/flow.png";
 import {useState, useEffect} from "react";
 
 const menu = require('../contents/urls.json');
@@ -20,12 +22,12 @@ const GrantsPage = () => {
                         <div className={'video-container'}>
                             <div className={'video-wrapper'}>
                                 <div className={'video-bg'}/>
-                                <video autoPlay={true} loop={true} preload={'none'} playsInline={true} muted={true} poster={EcosystemPoster}>
+                                <video autoPlay={true} loop={true} preload={'none'} playsInline={true} muted={true} poster={EcosystemImagePoster}>
                                     {isSafari &&
-                                        <source src={EcosystemVideoMov} type='video/mp4;codecs="hvc1"'/>
+                                        <source src={EcosystemImage} type='video/mp4;codecs="hvc1"'/>
                                     }
                                     {!isSafari &&
-                                        <source src={EcosystemVideo} type="video/webm" />
+                                        <source src={EcosystemImage} type="video/webm" />
                                     }
                                 </video>
                             </div>

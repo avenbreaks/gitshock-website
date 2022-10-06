@@ -3,6 +3,8 @@ import {Link} from "gatsby";
 import EcosystemVideoMov from "../videos/ecosystem-small.mp4";
 import EcosystemVideo from "../videos/ecosystem-small.webm";
 import EcosystemPoster from "../videos/ecosystem.png";
+import WardImage from "../videos/ward.png";
+import WardImagePoster from "../videos/ward.png";
 import {useState, useEffect} from "react";
 
 const menu = require('../contents/urls.json');
@@ -20,12 +22,12 @@ const EcosystemSection = () => {
                         <div className={'video-container'}>
                             <div className={'video-wrapper'}>
                                 <div id={'video-bg'}/>
-                                <video id={'ecosystem-video'} autoPlay={true} preload={'none'} loop={true} playsInline={true} muted={true} poster={EcosystemPoster}>
+                                <video id={'ecosystem-video'} autoPlay={true} preload={'none'} loop={true} playsInline={true} muted={true} poster={WardImagePoster}>
                                     {isSafari &&
-                                        <source src={EcosystemVideoMov} type='video/mp4;codecs="hvc1"'/>
+                                        <source src={WardImage} type='video/images'/>
                                     }
                                     {!isSafari &&
-                                        <source src={EcosystemVideo} type="video/webm" />
+                                        <source src={WardImage} type="video/images" />
                                     }
                                 </video>
                             </div>
